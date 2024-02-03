@@ -20,4 +20,6 @@ User registration by email and password indicating the type supplier, consumer<b
 Restrictions:<br>
   • The consumer cannot supply the goods<br>
   • The supplier cannot receive the goods<br>
-  • The consumer cannot receive more goods than are in stock
+  • The consumer cannot receive more goods than are in stock<br>
+
+![image](https://github.com/frutez/homework-6/assets/114811823/751bdf72-d67a-41d9-b64e-7b17dbe81f7e)

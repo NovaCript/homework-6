@@ -1,15 +1,22 @@
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from django.contrib.auth.password_validation import validate_password
+
 User = get_user_model()
 
 
 class CustomUserCreateSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('id', 'email', 'username', 'type', 'password')
+        fields = (
+            "id",
+            "email",
+            "username",
+            "type",
+            "password",
+        )
         extra_kwargs = {
-            'password': {'write_only': True},
+            "password": {"write_only": True},
         }
 
     def validate_password(self, value):
@@ -24,4 +31,9 @@ class CustomUserCreateSerializer(serializers.ModelSerializer):
 class CustomUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('id', 'email', 'username', 'type')
+        fields = (
+            "id",
+            "email",
+            "username",
+            "type",
+        )

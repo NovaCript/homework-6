@@ -1,6 +1,7 @@
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
-SAFE_METHODS = ('GET', 'HEAD', 'OPTIONS')
+SAFE_METHODS = ("GET", "HEAD", "OPTIONS")
+
 
 class IsProviderOrAuthenticatedOrReadOnly(IsAuthenticatedOrReadOnly):
     """
@@ -9,9 +10,10 @@ class IsProviderOrAuthenticatedOrReadOnly(IsAuthenticatedOrReadOnly):
 
     def has_permission(self, request, view):
         return bool(
-            request.method in SAFE_METHODS or
-            getattr(request.user, 'type', None) == 'pr'
+            request.method in SAFE_METHODS
+            or getattr(request.user, "type", None) == "pr"
         )
+
 
 class IsConsumerOrAuthenticatedOrReadOnly(IsAuthenticatedOrReadOnly):
     """
@@ -20,6 +22,6 @@ class IsConsumerOrAuthenticatedOrReadOnly(IsAuthenticatedOrReadOnly):
 
     def has_permission(self, request, view):
         return bool(
-            request.method in SAFE_METHODS or
-            getattr(request.user, 'type', None) == 'co'
+            request.method in SAFE_METHODS
+            or getattr(request.user, "type", None) == "co"
         )

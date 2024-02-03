@@ -7,7 +7,7 @@
 ><h5> Stack:</h5>DRF<br>Djoser<br>drf-yasg
 
 
-<a href="[https://gitlab.com/frutez/](https://python-poetry.org/docs/)https://python-poetry.org/docs/" target="_blank">Dependencies are installed using poetry</a>.
+<a href="https://python-poetry.org/docs/" target="_blank">Dependencies are installed using poetry</a>.
 
 Basic Rules.
 User registration by email and password indicating the type supplier, consumer

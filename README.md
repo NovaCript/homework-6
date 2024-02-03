@@ -9,15 +9,15 @@
 
 <a href="https://python-poetry.org/docs/" target="_blank">Dependencies are installed using poetry</a>.
 
-Basic Rules.
-User registration by email and password indicating the type supplier, consumer
-  • User authentication
-  • Creation of a warehouse
-  • Product creation
-  • The supplier must be able to deliver goods to the selected warehouse
-  • The consumer must be able to pick up the goods from the warehouse
-
-Restrictions:
-  • The consumer cannot supply the goods
-  • The supplier cannot receive the goods
+Basic Rules.<br>
+User registration by email and password indicating the type supplier, consumer<br>
+  • User authentication<br>
+  • Creation of a warehouse<br>
+  • Product creation<br>
+  • The supplier must be able to deliver goods to the selected warehouse<br>
+  • The consumer must be able to pick up the goods from the warehouse<br>
+<br>
+Restrictions:<br>
+  • The consumer cannot supply the goods<br>
+  • The supplier cannot receive the goods<br>
   • The consumer cannot receive more goods than are in stock

@@ -21,9 +21,9 @@ Restrictions:<br>
   • The consumer cannot supply the goods<br>
   • The supplier cannot receive the goods<br>
   • The consumer cannot receive more goods than are in stock<br>
+<br>
+<br>
 User registration.<br>
-<br>
-<br>
 ![image](https://github.com/frutez/homework-6/assets/114811823/ed26aae5-304a-4d88-9dff-7a9838624b24)<br>
 ![image](https://github.com/frutez/homework-6/assets/114811823/dc900712-136e-429d-8d9d-919f9ef7fe93)<br>
 Token create.<br>

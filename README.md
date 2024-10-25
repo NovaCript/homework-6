@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I'm <a href="https://gitlab.com/frutez/" target="_blank">Gleb</a> 
 
-><h5> Stack:</h5>DRF<br>Djoser<br>drf-yasg
+<h5> Stack:</h5>DRF<br>Djoser<br>drf-yasg
 
 
 <a href="https://python-poetry.org/docs/" target="_blank">Dependencies are installed using poetry</a>.
